@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruben.myapplication.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="10sp"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    /////////////////////////////////////////////////////
+    <TextView
+        android:id="@+id/View_Name"
+        android:text="First Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    // Insert First Name
+    <EditText
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+    ////////////////////////////////////////////////////
+    <TextView
+        android:id="@+id/View_Nickname"
+        android:text="First Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    // Insert First Nickname
+    <EditText
+        android:id="@+id/textNickname"
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+    ///////////////////////////////////////////////////
+    <TextView
+        android:id="@+id/View_Email"
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    // Insert Email adress
+    <EditText
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+    ////////////////////////////////////////////////////
+    <TextView
+        android:id="@+id/View_Password"
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    // Insert Password
+    <EditText
+        android:id="@+id/textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    ////////////////////////////////////////////////////
+    // Register
+    <Button
+        android:id="@+id/register"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:textSize="12sp" />
+
+</LinearLayout>
