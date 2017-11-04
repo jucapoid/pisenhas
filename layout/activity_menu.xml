@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ruben.myapplication.MenuActivity">
+
+    // Senhas
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/senhas"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Tickets"
+        android:onClick="Senhas"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    // Comprar
+    <Button
+        android:id="@+id/comprar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Buy"
+        android:onClick="Comprar"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="138dp" />
+
+    // Definições
+
+    <Button
+        android:id="@+id/Defi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Definitions"
+        android:onClick="Definition"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="260dp" />
+
+    // LogOut
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LogOut"
+        android:onClick="logOut"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+
+</LinearLayout>
