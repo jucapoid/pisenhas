@@ -15,8 +15,10 @@ public class BuyActivity extends AppCompatActivity {
     }
 
 
+    public BuyActivity(){
 
-    // Receberá uma tabela(File ou Base de Dados) com as refeções para a semana.
+    }
+    // Receberá uma Base de Dados com as refeções para a semana.
 
 
     // Criar algo para selecionar o dia.

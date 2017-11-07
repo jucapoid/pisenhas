@@ -13,7 +13,7 @@ public class DefinitionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_definition);
     }
 
-    //CRIAR UM CLASSE E ACTIVIVIDADE "CREDITS"    <- ATEEEENÇÃÃÃÃOOOOOOOOOOOOOO
+    //CRIAR UM CLASSE E ACTIVIVIDADE "CREDITS"
     /*
     public void Credits(View view){
         Intent intent = new Intent (this,CreditsActivity.class);

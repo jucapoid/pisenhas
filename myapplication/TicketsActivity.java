@@ -5,13 +5,17 @@ import android.os.Bundle;
 
 public class TicketsActivity extends AppCompatActivity {
 
+    // Servirá para mostrar ao usuário as senhas que comprou
+    BuyActivity buyActivity = new BuyActivity();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tickets);
     }
 
+    public TicketsActivity(){
 
-    // Mostrará as senhas que o usuário comprou, com a devida identificação(QR code)
+    }
 
 }
