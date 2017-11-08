@@ -15,14 +15,14 @@ SET client_min_messages = warning;
 SET row_security = off;
 
 --
--- Name: plpgsql; Type: EXTENSION; Schema: -; Owner: 
+-- Name: plpgsql; Type: EXTENSION; Schema: -; Owner:
 --
 
 CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 
 
 --
--- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner: 
+-- Name: EXTENSION plpgsql; Type: COMMENT; Schema: -; Owner:
 --
 
 COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
@@ -82,7 +82,7 @@ SET default_with_oids = false;
 --
 
 CREATE TABLE senhas (
-    senhaid character varying(6) NOT NULL,
+    senhaid character varying(16) NOT NULL,
     dia semana NOT NULL,
     refeicao refeicao NOT NULL,
     opcao opcao NOT NULL
@@ -97,7 +97,7 @@ ALTER TABLE senhas OWNER TO jucapoid;
 
 CREATE TABLE user_senha (
     username character varying(7) NOT NULL,
-    senhaid character varying(6) NOT NULL
+    senhaid character varying(16) NOT NULL
 );
 
 
@@ -112,7 +112,7 @@ CREATE TABLE users (
     password character varying(24) NOT NULL,
     email character varying(24) NOT NULL,
     name character varying(40) NOT NULL,
-    credito money DEFAULT 0 NOT NULL
+    credito decimal DEFAULT 0 NOT NULL
 );
 
 
@@ -185,4 +185,3 @@ ALTER TABLE ONLY user_senha
 --
 -- PostgreSQL database dump complete
 --
-
